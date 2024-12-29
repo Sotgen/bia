@@ -82,7 +82,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/sweeater/script/main/"
+    REPO="https://raw.githubusercontent.com/Sotgen/bia/main/"
 
 ####
 start=$(date +%s)
@@ -269,7 +269,7 @@ curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/sweeater/izin/main/ipvps"
+izinsc="https://raw.githubusercontent.com/Sotgen/bianizin/refs/heads/main/bianizin"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -305,8 +305,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-1002081929222"
-KEY="6377389734:AAEG-bMem9nlzgZQQpsQD87g9xEYoGnX7HE"
+CHATID="-1002081929kk"
+KEY="6377389734:AAEG-bMem9nlzgZQQpshgD87g9xEYoGnX7HE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -534,7 +534,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/sweeater/script/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/Sotgen/bia/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
