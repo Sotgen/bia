@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To SWEATER PINK SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To SURYAFA PINK SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}SWEATER PINK ® ${NC}${YELLOW}(${NC} ${green} YANG NYOLONG YATIM ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self SWEATER PINK ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}SURYAFA PINK ® ${NC}${YELLOW}(${NC} ${green} YANG NYOLONG YATIM ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self SURYAFA PINK ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -324,10 +324,10 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> SWEATER PINK TUNNEL SCRIPT  </b>
+<b> SURYAFA PINK TUNNEL SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/sweaterpinkconfig"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/SURYAFApinkconfig"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
