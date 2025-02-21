@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To SURYAFA PINK SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To SURYAFA SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}SURYAFA PINK ® ${NC}${YELLOW}(${NC} ${green} YANG NYOLONG YATIM ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self SURYAFA PINK ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}SURYAFA  ® ${NC}${YELLOW}(${NC} ${green} ALWARI VPN${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self SURYAFA ${YELLOW}(${NC} 2025 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
