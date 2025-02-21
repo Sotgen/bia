@@ -1,8 +1,8 @@
 #!/bin/bash
-# Edition : Stable Edition V3.0
-# Auther  : BOGEL STORE
-# (C) Copyright 2023
-# =========================================
+# Edition : Stable Edition V3
+# Auther  : ALWARI VPN
+# (C) Copyright 2025
+# ========================================
 
 red='\e[1;31m'
 green='\e[0;32m'
