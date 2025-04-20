@@ -1,13 +1,13 @@
 #!/bin/sh
 REPOS="https://github.com/SETANTAZVPN/abc/raw/ipuk/"
 ns_domain_cloudflare() {
-	DOMAIN="bogelstore.my.id"
+	DOMAIN="aqsabian.biz.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}."bogelstore.my.id"
+	SUB_DOMAIN=${SUB}."aqsabian.biz.id"
 	NS_DOMAIN=ns.${SUB_DOMAIN}
-	CF_ID=bogelxdvpn@gmail.com
-        CF_KEY=4af84b0309a1e1d70602126f50efcb7c8b4ed
+	CF_ID=gensetpw@gmail.com
+        CF_KEY=c6ee9475528109b33360b723bb84f4eb58e25
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
